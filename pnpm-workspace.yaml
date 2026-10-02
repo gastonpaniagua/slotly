@@ -1,13 +1,13 @@
 packages:
-  - "apps/*"
-  - "packages/*"
+  - 'apps/*'
+  - 'packages/*'
 
 catalog:
-  "@types/node": ^24.0.0
+  '@types/node': ^24.0.0
   typescript: ^6.0.2
 
 allowBuilds:
-  "@prisma/engines": true
+  '@prisma/engines': true
   prisma: true
   sharp: false
   unrs-resolver: false

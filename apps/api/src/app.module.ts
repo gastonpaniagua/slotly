@@ -12,7 +12,16 @@ import { DisponibilidadModule } from './disponibilidad/disponibilidad.module.js'
 import { TurnosModule } from './turnos/turnos.module.js';
 
 @Module({
-  imports: [ConfigModule.forRoot({ isGlobal: true }), PrismaModule, AuthModule, UsuariosModule, ProfesionalesModule, ServiciosModule, DisponibilidadModule, TurnosModule],
+  imports: [
+    ConfigModule.forRoot({ isGlobal: true }),
+    PrismaModule,
+    AuthModule,
+    UsuariosModule,
+    ProfesionalesModule,
+    ServiciosModule,
+    DisponibilidadModule,
+    TurnosModule,
+  ],
   controllers: [AppController, HealthController],
   providers: [AppService],
 })

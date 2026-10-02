@@ -10,27 +10,27 @@ Supuesto general: Slotly se vende a varios locales, así que desde el primer dí
 
 ### 1.1 Núcleo (viene en todos los planes)
 
-| Función | Detalle |
-|---|---|
-| Catálogo de servicios | Nombre, precio, duración, descripción corta y foto opcional. El admin los crea, edita, ordena y oculta. |
-| Profesionales | Uno o más. Cada profesional elige qué servicios hace y tiene su propio horario. El cliente puede elegir uno o "cualquiera disponible". |
-| Reserva de turno | El cliente elige servicio(s), profesional, día y hora libre. Se confirma al instante, sin aprobación. |
-| "Carrito" de servicios | Un turno puede tener varios servicios (corte + barba). La duración y el precio se suman y se reservan como un bloque continuo. No hace falta un carrito de compras aparte: el resumen del turno cumple esa función. |
-| Horarios libres por día | Al tocar un día se ven solo las horas en las que entra completo lo que eligió el cliente. |
-| Forma de pago | Efectivo o transferencia, elegida al reservar. Si es transferencia se muestran alias/CBU y titular para copiar. El pago se hace en el local; Slotly solo registra lo elegido. |
-| Ubicación | Dirección, mapa embebido y botón "Cómo llegar" que abre Google Maps. |
-| WhatsApp al profesional | Aviso al reservar, cancelar o reprogramar. **[Hilo 2]** |
-| WhatsApp al cliente | Confirmación, recordatorio 24 h antes y, después del servicio, pedido de reseña con el link directo a Google. **[Hilo 2]** |
-| Cancelar y reprogramar | Desde el link que le llega al cliente por WhatsApp, sin llamar, hasta X horas antes (lo configura el local). |
-| Reseñas de Google | Puntaje y últimas reseñas en la página de inicio. **[Hilo 2]** |
-| Panel admin | Agenda, turnos manuales, servicios, profesionales, horarios, bloqueos, clientes y datos del local (ver sección 2). |
+| Función                 | Detalle                                                                                                                                                                                                             |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Catálogo de servicios   | Nombre, precio, duración, descripción corta y foto opcional. El admin los crea, edita, ordena y oculta.                                                                                                             |
+| Profesionales           | Uno o más. Cada profesional elige qué servicios hace y tiene su propio horario. El cliente puede elegir uno o "cualquiera disponible".                                                                              |
+| Reserva de turno        | El cliente elige servicio(s), profesional, día y hora libre. Se confirma al instante, sin aprobación.                                                                                                               |
+| "Carrito" de servicios  | Un turno puede tener varios servicios (corte + barba). La duración y el precio se suman y se reservan como un bloque continuo. No hace falta un carrito de compras aparte: el resumen del turno cumple esa función. |
+| Horarios libres por día | Al tocar un día se ven solo las horas en las que entra completo lo que eligió el cliente.                                                                                                                           |
+| Forma de pago           | Efectivo o transferencia, elegida al reservar. Si es transferencia se muestran alias/CBU y titular para copiar. El pago se hace en el local; Slotly solo registra lo elegido.                                       |
+| Ubicación               | Dirección, mapa embebido y botón "Cómo llegar" que abre Google Maps.                                                                                                                                                |
+| WhatsApp al profesional | Aviso al reservar, cancelar o reprogramar. **[Hilo 2]**                                                                                                                                                             |
+| WhatsApp al cliente     | Confirmación, recordatorio 24 h antes y, después del servicio, pedido de reseña con el link directo a Google. **[Hilo 2]**                                                                                          |
+| Cancelar y reprogramar  | Desde el link que le llega al cliente por WhatsApp, sin llamar, hasta X horas antes (lo configura el local).                                                                                                        |
+| Reseñas de Google       | Puntaje y últimas reseñas en la página de inicio. **[Hilo 2]**                                                                                                                                                      |
+| Panel admin             | Agenda, turnos manuales, servicios, profesionales, horarios, bloqueos, clientes y datos del local (ver sección 2).                                                                                                  |
 
 ### 1.2 Extras con costo adicional (decisión tomada: van aparte)
 
-| Extra | Detalle |
-|---|---|
-| Mercado Pago | Link de pago o QR para cobrar el turno completo o una **seña** al reservar. La seña es la mejor arma contra el cliente que no viene; vale la pena venderla así. Si el pago no entra en X minutos, el turno se libera. **[Hilo 2: comisiones de MP]** |
-| Catálogo de productos | Vidriera de productos con foto, precio y stock simple. En v1 sin envío ni pago online: el cliente lo agrega a su turno y lo retira y paga en el local. |
+| Extra                 | Detalle                                                                                                                                                                                                                                              |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Mercado Pago          | Link de pago o QR para cobrar el turno completo o una **seña** al reservar. La seña es la mejor arma contra el cliente que no viene; vale la pena venderla así. Si el pago no entra en X minutos, el turno se libera. **[Hilo 2: comisiones de MP]** |
+| Catálogo de productos | Vidriera de productos con foto, precio y stock simple. En v1 sin envío ni pago online: el cliente lo agrega a su turno y lo retira y paga en el local.                                                                                               |
 
 Precio de cada extra: **[Hilo 3]**.
 
@@ -62,10 +62,11 @@ Estilo minimalista: fondo claro, una sola tipografía, fotos grandes, el color d
 ### 2.1 Públicas (las 3 que pediste)
 
 **A. Inicio**
+
 - Portada con foto del local, logo, nombre y botón grande "Reservar turno".
 - Servicios destacados con precio y duración (link a la lista completa).
 - Reseñas de Google: puntaje promedio, 3 a 5 reseñas y botón "Ver todas".
-- Galería de trabajos (fotos subidas por el admin o las últimas de Instagram). *Sugerencia: es lo que más vende en peluquería.*
+- Galería de trabajos (fotos subidas por el admin o las últimas de Instagram). _Sugerencia: es lo que más vende en peluquería._
 - Horarios de atención de la semana, con aviso si hoy está cerrado o de vacaciones.
 - Ubicación: dirección, mapita y "Cómo llegar".
 - Contacto y redes: WhatsApp, teléfono, Instagram, TikTok, Facebook.
@@ -73,6 +74,7 @@ Estilo minimalista: fondo claro, una sola tipografía, fotos grandes, el color d
 - Catálogo de productos (solo si el local tiene el extra).
 
 **B. Reservar** (un paso por pantalla, con barra de progreso y botón "atrás")
+
 1. Elegir servicio(s). Se ve el total de tiempo y precio abajo.
 2. Elegir profesional o "cualquiera". Se salta si el local tiene uno solo.
 3. Elegir día en un calendario semanal; los días sin lugar aparecen grisados.
@@ -81,20 +83,21 @@ Estilo minimalista: fondo claro, una sola tipografía, fotos grandes, el color d
 6. Resumen y confirmar. Pantalla final con "Agregar al calendario" y aviso de que le llega el WhatsApp.
 
 **C. Mi turno**
+
 - Se llega desde el link del WhatsApp o entrando con el teléfono.
 - Ver turno próximo, reprogramar, cancelar, historial y "reservar lo mismo de nuevo".
 
 ### 2.2 Panel admin
 
-| Pantalla | Qué hace |
-|---|---|
-| Agenda | Vista día y semana por profesional. Tocar un hueco crea un turno manual; tocar un turno permite moverlo, cancelarlo o marcarlo como "vino" o "no vino". |
-| Servicios | Alta, edición, precio, duración, orden, ocultar. |
-| Profesionales | Alta, foto, servicios que hace, horario propio. |
-| Horarios y bloqueos | Horario semanal con pausas (por ejemplo cerrado de 13 a 16), feriados, vacaciones y bloqueos puntuales ("el jueves salgo a las 18"). |
-| Clientes | Lista con teléfono, cantidad de visitas, faltas y última visita. |
-| Configuración | Datos del local, fotos, logo, colores, redes, alias/CBU, link de reseña de Google, reglas de turnos (sección 3.3) y textos de los mensajes. |
-| Resumen | Turnos de hoy y de la semana, ingresos estimados y faltas. |
+| Pantalla            | Qué hace                                                                                                                                                |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Agenda              | Vista día y semana por profesional. Tocar un hueco crea un turno manual; tocar un turno permite moverlo, cancelarlo o marcarlo como "vino" o "no vino". |
+| Servicios           | Alta, edición, precio, duración, orden, ocultar.                                                                                                        |
+| Profesionales       | Alta, foto, servicios que hace, horario propio.                                                                                                         |
+| Horarios y bloqueos | Horario semanal con pausas (por ejemplo cerrado de 13 a 16), feriados, vacaciones y bloqueos puntuales ("el jueves salgo a las 18").                    |
+| Clientes            | Lista con teléfono, cantidad de visitas, faltas y última visita.                                                                                        |
+| Configuración       | Datos del local, fotos, logo, colores, redes, alias/CBU, link de reseña de Google, reglas de turnos (sección 3.3) y textos de los mensajes.             |
+| Resumen             | Turnos de hoy y de la semana, ingresos estimados y faltas.                                                                                              |
 
 Usuarios del panel: el dueño (ve todo) y, si hay varios profesionales, cada uno con su usuario que solo ve su agenda.
 
@@ -116,15 +119,15 @@ Usuarios del panel: el dueño (ve todo) y, si hay varios profesionales, cada uno
 
 ### 3.3 Reglas que configura cada local
 
-| Regla | Valor sugerido |
-|---|---|
-| Intervalo entre opciones de inicio | Cada 15 minutos |
-| Tiempo de limpieza entre turnos | 0 a 10 min, por servicio o general |
-| Anticipación mínima para reservar | 1 hora (que no te caiga un turno para dentro de 5 minutos) |
-| Hasta cuándo se puede reservar | 30 días hacia adelante |
-| Cancelar o reprogramar sin penalidad | Hasta 3 horas antes |
-| Turnos futuros por teléfono | Máximo 2 |
-| Seña (si tiene Mercado Pago) | Desactivada, o un % / monto fijo |
+| Regla                                | Valor sugerido                                             |
+| ------------------------------------ | ---------------------------------------------------------- |
+| Intervalo entre opciones de inicio   | Cada 15 minutos                                            |
+| Tiempo de limpieza entre turnos      | 0 a 10 min, por servicio o general                         |
+| Anticipación mínima para reservar    | 1 hora (que no te caiga un turno para dentro de 5 minutos) |
+| Hasta cuándo se puede reservar       | 30 días hacia adelante                                     |
+| Cancelar o reprogramar sin penalidad | Hasta 3 horas antes                                        |
+| Turnos futuros por teléfono          | Máximo 2                                                   |
+| Seña (si tiene Mercado Pago)         | Desactivada, o un % / monto fijo                           |
 
 ### 3.4 Horario y zona horaria
 
@@ -152,6 +155,6 @@ Usuarios del panel: el dueño (ve todo) y, si hay varios profesionales, cada uno
 
 ## 5. Decisiones a confirmar con Gaston
 
-1. Cliente sin contraseña (teléfono + código por WhatsApp). *Recomendado.*
+1. Cliente sin contraseña (teléfono + código por WhatsApp). _Recomendado._
 2. Mercado Pago y catálogo como extras pagos; varios profesionales en el núcleo.
 3. Productos del catálogo se retiran y pagan en el local en la v1.
