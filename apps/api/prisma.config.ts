@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { defineConfig, env } from 'prisma/config';
+import { defineConfig } from 'prisma/config';
 
 export default defineConfig({
   schema: 'prisma/schema.prisma',
@@ -7,6 +7,8 @@ export default defineConfig({
     path: 'prisma/migrations',
   },
   datasource: {
-    url: env('DATABASE_URL'),
+    // process.env en lugar de env(): `prisma generate` no necesita la URL y
+    // así funciona en CI / clones sin .env. migrate sigue fallando si falta.
+    url: process.env.DATABASE_URL,
   },
 });
